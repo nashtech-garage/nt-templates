@@ -4,8 +4,7 @@
     "description": "",
     "packageManager": "pnpm@9.0.5",
     "scripts": {
-        "build:css": "pnpm exec postcss src/styles.scss -o dist/styles.css",
-        "publish:css": "pnpm rollup -c && npm publish dist/apps/nt-stylesheet"
+        "build:css": "pnpm exec postcss src/styles.scss -o dist/styles.css"
     },
     "engines": {
         "node": "20"
