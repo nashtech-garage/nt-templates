@@ -50,5 +50,8 @@
         "hooks": {
             "pre-commit": "npx lint-staged"
         }
+    },
+    "dependencies": {
+        "@nx/next": "^20.3.1"
     }
 }
